@@ -1138,17 +1138,17 @@ function __uri(src){
 seajs.config({
   alias: {
     //基础类组件
-    jquery: __uri('/static/js/jquery.min.js'),
-    zepto: __uri('/static/js/module/lib/zepto/zepto.js'),
-    querystring: __uri('/static/js/module/lib/querystring/index.js'),
-    tmpl: __uri('/static/js/module/lib/tmpl/index.js'),
-    cookie: __uri('/static/js/module/lib/cookie/index.js'),
-    util: __uri('/static/js/module/lib/util/index.js'),
-    md5: __uri('/static/js/module/lib/md5/index.js'),
-    jstorage: __uri('/static/js/lib/jstorage.js'),
-    'es5-shim': __uri('/static/js/module/lib/es5-shim/index.js'),
-    json: __uri('/static/js/module/lib/json/index.js'),
+    jquery: '/static/js/jquery.min.js',
+    zepto: '/static/js/module/lib/zepto/zepto.js',
+    querystring: '/static/js/module/lib/querystring/index.js',
+    tmpl: '/static/js/module/lib/tmpl/index.js',
+    cookie: '/static/js/module/lib/cookie/index.js',
+    util: '/static/js/module/lib/util/index.js',
+    md5: '/static/js/module/lib/md5/index.js',
+    jstorage: '/static/js/lib/jstorage.js',
+    'es5-shim': '/static/js/module/lib/es5-shim/index.js',
+    json: '/static/js/module/lib/json/index.js',
     //业务类通用组件
-    httphelper: __uri('/static/js/module/app/httphelper/index.js')
+    httphelper: '/static/js/module/app/httphelper/index.js'
   }
 });
